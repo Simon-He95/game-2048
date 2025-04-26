@@ -31,7 +31,7 @@ importers:
         version: 3.5.13(typescript@4.9.5)
       vue-router:
         specifier: ^4.5.0
-        version: 4.5.0(vue@3.5.13(typescript@4.9.5))
+        version: 4.5.1(vue@3.5.13(typescript@4.9.5))
     devDependencies:
       '@antfu/eslint-config':
         specifier: ^2.27.3
@@ -74,7 +74,7 @@ importers:
         version: 6.1.0(@types/node@18.19.75)(jiti@2.4.2)(lightningcss@1.29.1)(yaml@2.7.0)
       vite-plugin-pages:
         specifier: ^0.32.4
-        version: 0.32.4(@vue/compiler-sfc@3.5.13)(vite@6.1.0(@types/node@18.19.75)(jiti@2.4.2)(lightningcss@1.29.1)(yaml@2.7.0))(vue-router@4.5.0(vue@3.5.13(typescript@4.9.5)))
+        version: 0.32.4(@vue/compiler-sfc@3.5.13)(vite@6.1.0(@types/node@18.19.75)(jiti@2.4.2)(lightningcss@1.29.1)(yaml@2.7.0))(vue-router@4.5.1(vue@3.5.13(typescript@4.9.5)))
       vitest:
         specifier: ^3.0.4
         version: 3.0.5(@types/debug@4.1.12)(@types/node@18.19.75)(jiti@2.4.2)(jsdom@19.0.0)(lightningcss@1.29.1)(yaml@2.7.0)
@@ -2402,8 +2402,8 @@ packages:
     peerDependencies:
       eslint: '>=6.0.0'
 
-  vue-router@4.5.0:
-    resolution: {integrity: sha512-HDuk+PuH5monfNuY+ct49mNmkCRK4xJAV9Ts4z9UFc4rzdDnxQLyCMGGc8pKhZhHTVzfanpNwB/lwqevcBwI4w==}
+  vue-router@4.5.1:
+    resolution: {integrity: sha512-ogAF3P97NPm8fJsE4by9dwSYtDwXIY1nFY9T6DyQnGHd1E2Da94w9JIolpe42LJGIl0DwOHBi8TcRPlPGwbTtw==}
     peerDependencies:
       vue: ^3.2.0
 
@@ -4776,7 +4776,7 @@ snapshots:
       - tsx
       - yaml
 
-  vite-plugin-pages@0.32.4(@vue/compiler-sfc@3.5.13)(vite@6.1.0(@types/node@18.19.75)(jiti@2.4.2)(lightningcss@1.29.1)(yaml@2.7.0))(vue-router@4.5.0(vue@3.5.13(typescript@4.9.5))):
+  vite-plugin-pages@0.32.4(@vue/compiler-sfc@3.5.13)(vite@6.1.0(@types/node@18.19.75)(jiti@2.4.2)(lightningcss@1.29.1)(yaml@2.7.0))(vue-router@4.5.1(vue@3.5.13(typescript@4.9.5))):
     dependencies:
       '@types/debug': 4.1.12
       debug: 4.4.0
@@ -4790,7 +4790,7 @@ snapshots:
       yaml: 2.7.0
     optionalDependencies:
       '@vue/compiler-sfc': 3.5.13
-      vue-router: 4.5.0(vue@3.5.13(typescript@4.9.5))
+      vue-router: 4.5.1(vue@3.5.13(typescript@4.9.5))
     transitivePeerDependencies:
       - supports-color
 
@@ -4867,7 +4867,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  vue-router@4.5.0(vue@3.5.13(typescript@4.9.5)):
+  vue-router@4.5.1(vue@3.5.13(typescript@4.9.5)):
     dependencies:
       '@vue/devtools-api': 6.6.4
       vue: 3.5.13(typescript@4.9.5)
