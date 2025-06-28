@@ -13,7 +13,7 @@ importers:
         version: 1.9.0(tailwindcss@4.0.4)
       '@iconify-json/carbon':
         specifier: ^1.2.6
-        version: 1.2.6
+        version: 1.2.10
       '@iconify/tailwind':
         specifier: ^1.2.0
         version: 1.2.0
@@ -371,8 +371,8 @@ packages:
     resolution: {integrity: sha512-93zYdMES/c1D69yZiKDBj0V24vqNzB/koF26KPaagAfd3P/4gUlh3Dys5ogAK+Exi9QyzlD8x/08Zt7wIKcDcA==}
     deprecated: Use @eslint/object-schema instead
 
-  '@iconify-json/carbon@1.2.6':
-    resolution: {integrity: sha512-Oat/TUfu1Cpg/inoi6ZIVvNjWoKQJFugpDB6LqpahENf4f2pZKMOUR2B9MCQlje77iRRI5nWQzvUO2kJlXFStw==}
+  '@iconify-json/carbon@1.2.10':
+    resolution: {integrity: sha512-Z+psKjwGZ9wZu+mVOStmIqHux1OWc8AtDiJ4eHmOkbcW5SMoGVtsQ6LWGJcYguT+9q9YgGihUTvHEnQSPWKGiQ==}
 
   '@iconify/tailwind@1.2.0':
     resolution: {integrity: sha512-KgpIHWOTcRYw1XcoUqyNSrmYyfLLqZYu3AmP8zdfLk0F5TqRO8YerhlvlQmGfn7rJXgPeZN569xPAJnJ53zZxA==}
@@ -2745,7 +2745,7 @@ snapshots:
 
   '@humanwhocodes/object-schema@2.0.3': {}
 
-  '@iconify-json/carbon@1.2.6':
+  '@iconify-json/carbon@1.2.10':
     dependencies:
       '@iconify/types': 2.0.0
 
